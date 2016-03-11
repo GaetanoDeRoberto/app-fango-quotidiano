@@ -7,7 +7,7 @@
     <author email="gaetanoderoberto@gmail.com" href="http://gdrdesign.net">
         Gaetano De Roberto
     </author>
-    <preference name="phonegap-version" value="cli-6.0.0" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
     <content src="index.html" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
@@ -54,9 +54,9 @@
     <icon gap:platform="ios" height="114" src="res/icon/ios/icon-57-2x.png" width="114" />
     <icon gap:platform="ios" height="144" src="res/icon/ios/icon-72-2x.png" width="144" />
     <icon gap:platform="webos" src="res/icon/webos/icon-64.png" />
-    <icon gap:platform="winphone" src="res/icon/windows-phone/icon-48.png" />
-    <icon gap:platform="winphone" gap:role="background" src="res/icon/windows-phone/icon-173-tile.png" />
+    <icon src="icon.jpgg" platform="winphone" />
 	<splash src="splash.jpg" />
+	<preference name="SplashScreenDelay" value="3000" />
     <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="res/screen/android/screen-ldpi-portrait.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/screen/android/screen-mdpi-portrait.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/screen/android/screen-hdpi-portrait.jpg" />
@@ -65,6 +65,7 @@
     <gap:splash gap:platform="android" gap:qualifier="land-mdpi" src="res/screen/android/screen-mdpi-landscape.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="land-hdpi" src="res/screen/android/screen-hdpi-landscape.jpg" />
     <gap:splash gap:platform="android" gap:qualifier="land-xhdpi" src="res/screen/android/screen-xhdpi-landscape.jpg" />
+	<splash src="splash.jpg" platform="winphone" />
     <access origin="*" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <allow-intent href="http://*/*" />
